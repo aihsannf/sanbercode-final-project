@@ -5,7 +5,7 @@ import App from './App';
 
 test('Link changes the class when hovered', () => {
   const component = renderer.create(
-    <App />,
+    <Form />,
   );
   let tree = component.toJSON();
   expect(tree).toMatchSnapshot();

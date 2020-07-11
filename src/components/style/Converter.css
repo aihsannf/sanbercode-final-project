@@ -1,0 +1,13 @@
+.convert-cont {
+    background-color: #303960;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    text-align: center;
+}
+
+.btn {
+   margin-top: 40px; 
+}

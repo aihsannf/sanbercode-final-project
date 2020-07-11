@@ -2,10 +2,11 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import renderer from 'react-test-renderer';
 import App from './App';
+import Converter from '../components/Converter';
 
 test('Link changes the class when hovered', () => {
   const component = renderer.create(
-    <App />,
+    <Converter />,
   );
   let tree = component.toJSON();
   expect(tree).toMatchSnapshot();

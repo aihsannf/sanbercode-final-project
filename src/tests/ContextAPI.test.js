@@ -2,10 +2,11 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import renderer from 'react-test-renderer';
 import App from './App';
+import ContextAPI from '../components/ContextAPI';
 
 test('Link changes the class when hovered', () => {
   const component = renderer.create(
-    <App />,
+    <ContextAPI />,
   );
   let tree = component.toJSON();
   expect(tree).toMatchSnapshot();
